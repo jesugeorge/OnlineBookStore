@@ -38,6 +38,7 @@ Get Book by ID Endpoint
 URL: /books/{bookId}
 HTTP Method: GET
 Description: Returns the details of a specific book based on the provided bookId.
+```
 {
   "id": 1,
   "title": "Book1",
@@ -46,7 +47,7 @@ Description: Returns the details of a specific book based on the provided bookId
   "publishedDate": "2022-01-01",
   "genre": "Genre1"
 }
-
+```
 
 Add New Book Endpoint
 URL: /books
