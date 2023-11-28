@@ -11,10 +11,10 @@ Step 5: Proceed to install
 
 
 Steps to run the project locally
-Step 1: Ensure Java is installed in your machine. Typically Java 8 or later
-Step 2: Clone the project to your machine.
-Step 3: Open a terminal or command prompt and navigate to the root directory of your project. Use the following commands based on your build tool: mvn clean install
-Step 4: After a successful build, you can run the application using the following command: mvn spring-boot:run 
+1. Ensure Java is installed in your machine. Typically Java 8 or later
+2. Clone the project to your machine.
+3. Open a terminal or command prompt and navigate to the root directory of your project. Use the following commands based on your build tool: mvn clean install
+4. After a successful build, you can run the application using the following command: mvn spring-boot:run 
 
 URL: /books
 HTTP Method: GET
