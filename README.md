@@ -1,13 +1,13 @@
 # OnlineBookStore
 
----
+
 Steps to download and install postgres
 Step 1: Download postgres using the following link: https://www.postgresql.org/download/windows/
 Step 2: Install the exe file
 Step 3: Provide download location
 Step 4: Provide super user (postgres) credentials
 Step 5: Proceed to install
----
+
 
 
 Steps to run the project locally
@@ -15,7 +15,6 @@ Step 1: Ensure Java is installed in your machine. Typically Java 8 or later
 Step 2: Clone the project to your machine.
 Step 3: Open a terminal or command prompt and navigate to the root directory of your project. Use the following commands based on your build tool: mvn clean install
 Step 4: After a successful build, you can run the application using the following command: mvn spring-boot:run 
-
 
 URL: /books
 HTTP Method: GET
