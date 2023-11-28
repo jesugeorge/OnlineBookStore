@@ -20,6 +20,7 @@ Step 4: After a successful build, you can run the application using the followin
 URL: /books
 HTTP Method: GET
 Description: Returns a list of all books.
+```
 [
   {
     "id": 1,
@@ -31,7 +32,7 @@ Description: Returns a list of all books.
   }
 ]
 
-
+```
 
 Get Book by ID Endpoint
 URL: /books/{bookId}
