@@ -16,6 +16,8 @@ Steps to run the project locally
 3. Open a terminal or command prompt and navigate to the root directory of your project. Use the following commands based on your build tool: mvn clean install
 4. After a successful build, you can run the application using the following command: mvn spring-boot:run 
 
+
+Returns a list of all books
 * URL: /books
 * HTTP Method: GET
 * Description: Returns a list of all books.
@@ -33,7 +35,7 @@ Steps to run the project locally
 
 ```
 
-* Get Book by ID Endpoint
+Get Book by ID Endpoint
 * URL: /books/{bookId}
 * HTTP Method: GET
 * Description: Returns the details of a specific book based on the provided bookId.
