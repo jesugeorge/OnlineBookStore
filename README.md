@@ -53,6 +53,7 @@ Add New Book Endpoint
 URL: /books
 HTTP Method: POST
 Description: Adds a new book to the system.
+```
 {
   "id": 3,
   "title": "NewBook",
@@ -61,12 +62,13 @@ Description: Adds a new book to the system.
   "publishedDate": "2022-03-01",
   "genre": "NewGenre"
 }
-
+```
 
 Update Book Endpoint
 URL: /books
 HTTP Method: PUT
 Description: Updates an existing book.
+```
 {
   "id": 1,
   "title": "UpdatedBook",
@@ -75,12 +77,13 @@ Description: Updates an existing book.
   "publishedDate": "2022-04-01",
   "genre": "UpdatedGenre"
 }
-
+```
 
 Delete Book by ID Endpoint
 URL: /books/{bookId}
 HTTP Method: DELETE
 Description: Deletes a book based on the provided bookId.
+```
 {
   "id": 1,
   "title": "DeletedBook",
@@ -89,5 +92,5 @@ Description: Deletes a book based on the provided bookId.
   "publishedDate": "2022-05-01",
   "genre": "DeletedGenre"
 }
-
+```
 
