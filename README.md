@@ -2,7 +2,7 @@
 
 
 
- 
+
 Steps to download and install postgres
 Step 1: Download postgres using the following link: https://www.postgresql.org/download/windows/
 Step 2: Install the exe file
